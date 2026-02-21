@@ -19,3 +19,15 @@ encoding: "utf8",
 assert.equal(result.status, 1);
 assert.match(result.stderr, /Usage:/);
 });
+test("cli: prints help", () => {
+    const result = spawnSync("node", ["src/cli.js", "--help"], { encoding: "utf8" });
+    assert.equal(result.status, 0);
+    assert.match(result.stdout, /Usage:/);
+    });
+    
+    test("cli: prints version", () => {
+    const result = spawnSync("node", ["src/cli.js", "--version"], { encoding: "utf8" });
+    assert.equal(result.status, 0);
+    assert.match(result.stdout.trim(), /^\d+\.\d+\.\d+$/);
+    });
+    
