@@ -1,0 +1,23 @@
+{
+  "name": "kmb-vibecoding",
+  "version": "1.0.0",
+  "description": "\\# KMB Vibecoding",
+  "main": "index.js",
+  "scripts": {
+"dev": "node src/index.js",
+"test": "node --test",
+"build": "echo \"No build step yet\""
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FobOS-DEV/kmb-vibecoding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FobOS-DEV/kmb-vibecoding/issues"
+  },
+  "homepage": "https://github.com/FobOS-DEV/kmb-vibecoding#readme"
+}
