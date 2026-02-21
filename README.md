@@ -22,3 +22,12 @@
 Команды:
 - npm run build
 - npm test
+
+## CLI usage
+
+```bash
+npm run slug -- "Привет мир"
+# privet-mir
+
+npm run slug -- --help
+npm run slug -- --version
