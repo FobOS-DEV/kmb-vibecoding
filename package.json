@@ -6,6 +6,7 @@
   "scripts": {
 "dev": "node src/index.js",
 "test": "node --test",
+"slug": "node src/cli.js",
 "build": "echo \"No build step yet\""
 },
   "repository": {
